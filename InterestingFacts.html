@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+            <nav>
+                <div class="logo"><h1>RWANDA</h1></div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Culture.html">Culture</a></li>
+                    <li><a href="InterestingFacts.html">Interesting facts</a></li>
+                    <li><a href="Activities.html">Activities</a></li>
+                    <li><a href="MoreHistory.html">More History</a></li>
+                </ul>
+                <div class="menu-btn"><img src="menu2.jpg" alt=""/></div>
+            </nav>
+
+          <div class="header-content">
+               <h1>Interesting Facts</h1>
+               <button class="primary-btn">CONTINUE</button>
+          </div>     
+        </div>
+    </section>
+
+    <section id="services" class="container">
+        <div class="service">
+          <img src="Forest.jpg" alt=""> 
+          <h1>Nyungwe Forest</h1> 
+          <p>
+            Nyungwe Forest National Park is one of Rwanda’s most stunning natural treasures. 
+            It is an ancient rainforest known for its rich biodiversity, including 13 primate species such as chimpanzees, 
+            and over 300 bird species. The forest is considered one of the best-preserved montane rainforests in Africa and was recently designated a UNESCO World Heritage Site.
+          </p>
+        </div>
+        <div class="service">
+            <img src="Safety.jpg" alt=""> 
+            <h1>Country's Safety</h1> 
+            <p>
+                Rwanda is generally considered one of the safest countries in Africa for travelers, 
+                with a low crime rate and a strong focus on security. 
+                The capital, Kigali, is known for its cleanliness and safety, making it a welcoming destination for visitors. 
+                However, some areas near the Burundi and Democratic Republic of the Congo (DRC) borders have been flagged for potential security risks due to armed violence. 
+            </p>
+          </div>
+          <div class="service">
+            <img src="Hills.webp" alt=""> 
+            <h1>The Thousand Hills</h1> 
+            <p>
+                Rwanda is often called the "Land of a Thousand Hills" due to its breathtaking landscape of rolling hills and mountains2.
+                 The country’s terrain is dominated by lush green hills, terraced farms, tea and coffee plantations, and picturesque valleys.
+                  This nickname reflects both the physical beauty of Rwanda and the resilience of its people, who have adapted to the hilly environment through innovative agricultural techniques like terraced farming.
+            </p>
+          </div>
+    </section>
+
+    <secttion id="about" class="container">
+    <div class="about-content">
+       <h1>Genocide</h1> 
+       <p>
+        The Rwandan Genocide occurred between April and July 1994, during which an estimated 500,000 to 800,000 Tutsi and moderate Hutu were systematically killed. The genocide was orchestrated by Hutu extremists, following years of ethnic tensions between the Hutu majority and Tutsi minority.
+
+        The violence was triggered by the assassination of President Juvénal Habyarimana on April 6, 1994, which led to mass killings carried out by Hutu militias, including the Interahamwe. Many victims were murdered by their own neighbors, and between 250,000 and 500,000 women were subjected to sexual violence.
+        
+        Despite the scale of the atrocities, the international community failed to intervene in time to stop the killings. The genocide ended when the Rwandan Patriotic Front (RPF), led by Paul Kagame, took control of the country.
+        
+        Today, Rwanda has made significant strides in reconciliation and rebuilding, with memorials and laws in place to prevent genocide ideology.
+    </p>
+    </div>  
+    <div class="about-img">
+       <img src="Genocide.jpg" alt=""> 
+    </div>  
+    </secttion>
+
+    <section id="Discover-more">
+      <div class="Discover-more-content">
+        <h1>DISCOVER MORE</h1>
+        <p>Want to know more? Click on 'More history',
+           at the far end of the top right of the navigation bar,
+           then click on the available youtube video. 
+        </p>
+      </div>  
+    </section>
+
+    <footer>
+       <ul class="footerlinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Culture.html">Culture</a></li>
+        <li><a href="InterestingFacts.html">Interesting facts</a></li>
+        <li><a href="Activities.html">Activities</a></li>
+        <li><a href="MoreHistory.html">More History</a></li>
+       </ul> 
+       <h1 class="logo">RWANDA</h1>
+       <p>My Rwanda Project Website.</p>
+    </footer>
+
+    <script>
+        const menuBtn = document.querySelector('menu-btn')
+        const navLinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', function(){
+            navLinks.classList.toggle('active')
+        })
+    </script>
+</body>
+</html>

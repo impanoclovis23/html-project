@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+            <nav>
+                <div class="logo"><h1>RWANDA</h1></div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Culture.html">Culture</a></li>
+                    <li><a href="InterestingFacts.html">Interesting facts</a></li>
+                    <li><a href="Activities.html">Activities</a></li>
+                    <li><a href="MoreHistory.html">More History</a></li>
+                </ul>
+                <div class="menu-btn"><img src="menu2.jpg" alt=""/></div>
+            </nav>
+
+          <div class="header-content">
+               <h1>Activities</h1>
+               <button class="primary-btn">CONTINUE</button>
+          </div>     
+        </div>
+    </section>
+
+    <section id="services" class="container">
+        <div class="service">
+         
+          </div>
+    </section>
+
+    <secttion id="about" class="container">
+    <div class="about-content">
+       <h1>Things to Do while visiting.</h1> 
+       <p>
+        This is a plan of things to do while being in vaction for about a week in Rwanda, take a look at it if interested.
+
+    </p>
+    </div>  
+    <div class="about-img">
+        <table border="1">
+            <thead>
+                <tr>
+                    <th colspan="2">Monday & Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">10:00am-12:00pm</td>
+                    <td>Kigali Genocide Memorial</td>
+                    <td>King’s Palace Museum</td>
+                    <td>Visit Local Markets</td>
+                    <td>Traditional Dance Performances</td>
+                    <td>Art Galleries</td>
+                </tr>
+                <tr>
+                    <td>Coffee Plantation Tour</td>
+                    <td>Tea Plantation Visit</td>
+                    <td>Try Rwandan Cuisine</td>
+                    <td>Visit a Cultural Village</td>
+                    <td>Camping in Akagera</td>
+                </tr>
+                <tr>
+                    <td>12:00pm-2:00pm</td>
+            <td colspan="2">Break time</td>
+            <td>Attend Kwita Izina</td>
+            <td>Hot Springs in Nyamyumba</td>
+            <td>Visit the Rusumo Falls</td>
+        </tr>
+        <tr>
+            <td>2:00pm-3:00pm</td>
+            <td>Explore Musanze Caves</td>
+            <td>Explore the Twin Lakes</td>
+            <td>Lake Kivu Boat Tour</td>
+            <td>Hiking Mount Bisoke</td>
+            <td>Canopy Walk</td>
+        </tr>
+        <tr>
+            <td rowspan="2">3:00pm-6:00pm</td>
+            <td>Gorilla Trekking</td>
+            <td>Birdwatching</td>
+            <td>Golden Monkey Tracking</td>
+            <td>Explore Rugezi Wetlands</td>
+            <td>Visit the Umusambi Village</td>
+        </tr>
+        <tr>
+            <td>Chimpanzee Trekking</td>
+            <td>Visit Inema Arts Center</td>
+            <td>Horseback Riding in Musanze</td>
+            <td>Explore the Rusizi River</td>
+            <td>Go Paragliding Over Rwanda’s Hills</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="6">Enjoy!</td>
+        </tr>
+    </tfoot>
+</table>
+
+                
+    </div>  
+    </secttion>
+
+    <section id="Discover-more">
+      <div class="Discover-more-content">
+        <h1>DISCOVER MORE</h1>
+        <p>Want to know more? Click on 'More history',
+           at the far end of the top right of the navigation bar,
+           then click on the available youtube video. 
+        </p>
+      </div>  
+    </section>
+
+    <footer>
+       <ul class="footerlinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Culture.html">Culture</a></li>
+        <li><a href="InterestingFacts.html">Interesting facts</a></li>
+        <li><a href="Activities.html">Activities</a></li>
+        <li><a href="MoreHistory.html">More History</a></li>
+       </ul> 
+       <h1 class="logo">RWANDA</h1>
+       <p>My Rwanda Project Website.</p>
+    </footer>
+
+    <script>
+        const menuBtn = document.querySelector('menu-btn')
+        const navLinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', function(){
+            navLinks.classList.toggle('active')
+        })
+    </script>
+</body>
+</html>

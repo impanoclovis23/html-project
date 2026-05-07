@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+            <nav>
+                <div class="logo"><h1>RWANDA</h1></div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Culture.html">Culture</a></li>
+                    <li><a href="InterestingFacts.html">Interesting facts</a></li>
+                    <li><a href="Activities.html">Activities</a></li>
+                    <li><a href="MoreHistory.html">More History</a></li>
+                </ul>
+                <div class="menu-btn"><img src="menu2.jpg" alt=""/></div>
+            </nav>
+
+          <div class="header-content">
+               <h1>Culture</h1>
+               <button class="primary-btn">CONTINUE</button>
+          </div>     
+        </div>
+    </section>
+
+    <section id="services" class="container">
+        <div class="service">
+          <img src="Dance.jpg" alt=""> 
+          <h1>National Dance</h1> 
+          <p>
+            Rwanda's national dance is the Intore dance, 
+            also known as the "Dance of the Heroes." 
+            It is a traditional performance that dates back to the royal courts of Rwanda, 
+            where it was originally performed for kings and dignitaries. 
+            The dance is characterized by graceful movements, energetic jumps, and rhythmic drumming,
+             symbolizing bravery, strength, and unity.
+          </p>
+        </div>
+        <div class="service">
+            <img src="Cow.jpg" alt=""> 
+            <h1>Inyambo</h1> 
+            <p>
+              Inyambo cows are a special breed of long-horned cattle in Rwanda, 
+              known for their majestic appearance and cultural significance. 
+              These cows, a subset of the Ankole breed, 
+              were historically bred for royal ceremonies and were considered symbols of power, prestige, and tradition
+            </p>
+          </div>
+          <div class="service">
+            <img src="Food.jpg" alt=""> 
+            <h1>National Dish</h1> 
+            <p>
+              Brochette is a beloved Rwandan dish consisting of grilled meat skewers, 
+              often made with goat, beef, chicken, or pork.
+              It is considered Rwanda’s national dish and is commonly served with potatoes, deep-fried bananas, fresh salad, and sauce
+            </p>
+          </div>
+    </section>
+
+    <secttion id="about" class="container">
+    <div class="about-content">
+       <h1>Acient King's Palace</h1> 
+       <p>
+        The King's Palace Museum in Nyanza, Rwanda is a fascinating historical site that offers a glimpse into Rwanda’s royal past. 
+        The palace is a reconstruction of the traditional royal residence, designed in the shape of a beehive, reflecting the architectural style of Rwanda’s monarchy.
+        Historically, Nyanza was the heart of Rwanda’s kingdom, serving as the seat of power for Rwandan kings. The palace features long-horned Inyambo cattle, which were once part of royal ceremonies and are still carefully tended today. Visitors can also explore the modern palace, built in 1932 for King Mutara III Rudahigwa, which houses exhibits detailing Rwanda’s monarchy and colonial history.
+    </p>
+    </div>  
+    <div class="about-img">
+       <img src="Palace.jpg" alt=""> 
+    </div>  
+    </secttion>
+
+    <section id="Discover-more">
+      <div class="Discover-more-content">
+        <h1>DISCOVER MORE</h1>
+        <p>Want to know more? Click on 'More history',
+           at the far end of the top right of the navigation bar,
+           then click on the available youtube video. 
+        </p>
+      </div>  
+    </section>
+
+    <footer>
+       <ul class="footerlinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Culture.html">Culture</a></li>
+        <li><a href="InterestingFacts.html">Interesting facts</a></li>
+        <li><a href="Activities.html">Activities</a></li>
+        <li><a href="MoreHistory.html">More History</a></li>
+       </ul> 
+       <h1 class="logo">RWANDA</h1>
+       <p>My Rwanda Project Website.</p>
+    </footer>
+
+    <script>
+        const menuBtn = document.querySelector('menu-btn')
+        const navLinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', function(){
+            navLinks.classList.toggle('active')
+        })
+    </script>
+</body>
+</html>

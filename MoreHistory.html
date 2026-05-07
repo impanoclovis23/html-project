@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+            <nav>
+                <div class="logo"><h1>RWANDA</h1></div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Culture.html">Culture</a></li>
+                    <li><a href="InterestingFacts.html">Interesting facts</a></li>
+                    <li><a href="Activities.html">Activities</a></li>
+                    <li><a href="MoreHistory.html">More History</a></li>
+                </ul>
+                <div class="menu-btn"><img src="menu2.jpg" alt=""/></div>
+            </nav>
+
+          <div class="header-content">
+               <h1>More History</h1>
+               <button class="primary-btn">CONTINUE</button>
+          </div>     
+        </div>
+    </section>
+
+    <section id="services" class="container">
+        <div class="service">
+          </div>
+    </section>
+
+    <secttion id="about" class="container">
+    <div class="about-content">
+       <h1>Watch the video below!</h1> 
+       <p>
+        This is a short video summary about the history of Rwanda. 
+        Click on it if you are interested and want to discover more.
+    </p>
+    </div>  
+    <div class="about-img">
+        <iframe width="1200" height="600" src="https://www.youtube.com/embed/_MbzQNFC2kA?si=raLA8vDQwrAEO8tm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>  
+    </secttion>
+
+    <section id="Discover-more">
+      <div class="Discover-more-content">
+        <h1>DISCOVER MORE</h1>
+        <p>Want to know more? Click on 'More history',
+           at the far end of the top right of the navigation bar,
+           then click on the available youtube video. 
+        </p>
+      </div>  
+    </section>
+
+    <footer>
+       <ul class="footerlinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Culture.html">Culture</a></li>
+        <li><a href="InterestingFacts.html">Interesting facts</a></li>
+        <li><a href="Activities.html">Activities</a></li>
+        <li><a href="MoreHistory.html">More History</a></li>
+       </ul> 
+       <h1 class="logo">RWANDA</h1>
+       <p>My Rwanda Project Website.</p>
+    </footer>
+
+    <script>
+        const menuBtn = document.querySelector('menu-btn')
+        const navLinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', function(){
+            navLinks.classList.toggle('active')
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+            <nav>
+                <div class="logo"><h1>RWANDA</h1></div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Culture.html">Culture</a></li>
+                    <li><a href="InterestingFacts.html">Interesting facts</a></li>
+                    <li><a href="Activities.html">Activities</a></li>
+                    <li><a href="MoreHistory.html">More History</a></li>
+                </ul>
+                <div class="menu-btn"><img src="menu2.jpg" alt=""/></div>
+            </nav>
+
+          <div class="header-content">
+               <h1>RWANDA</h1>
+               <P>WEBSITE PROJECT (by Clovis)</P>
+               <button class="primary-btn">CONTINUE</button>
+          </div>     
+        </div>
+    </section>
+
+    <section id="services" class="container">
+        <div class="service">
+          <img src="City.jpg" alt=""> 
+          <h1>Capital City</h1> 
+          <p>
+            The Capital city of Rwanda is know as kigali,
+             it is the largest city, situated near the nation's
+             geographic centre in a region of rolling hills,
+             with a series of valleys and ridges joined by steep slopes.
+          </p>
+        </div>
+        <div class="service">
+            <img src="President.avif" alt=""> 
+            <h1>President</h1> 
+            <p>
+                Paul Kagame is the President of Rwanda, having held office since 2000. 
+                Before becoming president, he was a military leader and played a key role in ending the 1994 Rwandan genocide as the commander of the Rwandan Patriotic Front (RPF).
+                 Kagame, loved by his nation, has been influential in Rwanda’s economic development, reconciliation efforts, and technological advancements.  
+            </p>
+          </div>
+          <div class="service">
+            <img src="Agaseke.png" alt=""> 
+            <h1>languages of Rwanda</h1> 
+            <p>
+              The main language of Rwanda is Kinyarwanda, then
+              followed by English and a bit of french spoken by a low 
+              minority of people.
+            </p>
+          </div>
+    </section>
+
+    <secttion id="about" class="container">
+    <div class="about-content">
+       <h1>About Rwanda</h1> 
+       <p>
+        Rwanda is located in the Great Rift Valley of East Africa,
+         bordered by Uganda to the north, Tanzania to the east, Burundi to the south,
+        and the Democratic Republic of the Congo to the west. 
+        The country is characterized by its mountainous terrain, 
+        with the Virunga Mountains in the northwest and the Akagera River valley in the east.
+        Rwanda is known for its rich cultural heritage, with Kinyarwanda as the primary language.
+        Christianity is the dominant religion, with significant numbers of Catholics and Protestants. Rwandan culture emphasizes unity, work, and patriotism, 
+        and traditional dances like Intore are an integral part of cultural celebrations.
+    </p>
+    </div>  
+    <div class="about-img">
+       <img src="ladyscene.jpg" alt=""> 
+    </div>  
+    </secttion>
+
+    <section id="Discover-more">
+      <div class="Discover-more-content">
+        <h1>DISCOVER MORE</h1>
+        <p>Want to know more? Click on 'More history',
+           at the far end of the top right of the navigation bargit i,
+           then click on the available youtube video. 
+        </p>
+      </div>  
+    </section>
+
+    <footer>
+       <ul class="footerlinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Culture.html">Culture</a></li>
+        <li><a href="InterestingFacts.html">Interesting facts</a></li>
+        <li><a href="Activities.html">Activities</a></li>
+        <li><a href="MoreHistory.html">More History</a></li>
+       </ul> 
+       <h1 class="logo">RWANDA</h1>
+       <p>My Rwanda Project Website.</p>
+    </footer>
+
+    <script>
+        const menuBtn = document.querySelector('menu-btn')
+        const navLinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', function(){
+            navLinks.classList.toggle('active')
+        })
+    </script>
+</body>
+</html>
